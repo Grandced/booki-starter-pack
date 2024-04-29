@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    font-weight: 700;
 }
 
 :root {
@@ -11,6 +12,28 @@
 
 .fa-solid {
     color: var(--main-color);
+}
+
+/* Flexbox pour la mise en page */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+/* Alignement du contenu texte à gauche */
+section {
+    text-align: left;
+}
+
+/* Liens dans le coin supérieur droit */
+nav.links {
+    margin-left: auto;
 }
 
 body {
