@@ -14,28 +14,30 @@
     color: var(--main-color);
 }
 
-/* Flexbox pour la mise en page */
+/*style Logo et links */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-/* Liens dans le coin supérieur droit */
-nav.links {
-    display: flex;
+/* Lien par défaut */
+a {
+    color: black; /* Couleur du texte par défaut */
+    text-decoration: none; /* Supprimer le soulignement par défaut */
 }
+
+/* Lien bleu avec soulignement après survol */
+a:hover {
+    color:var(--main-color); /* link bleu survol */
+    border-top: solid 0.2rem var(--main-color);/*ligne bleu survol*/
+    padding-top: 1.2rem;/*valeur d'espacement de la ligne bleu*/
+}
+
 
 .container {
     display: flex;
     align-items: center;
 }
-
-/* Alignement du contenu texte à gauche */
-section {
-    text-align: left;
-}
-
-
 
 body {
     display: flex;
@@ -92,7 +94,7 @@ body {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 65%;
+    width: 100%;
 }
 
 /****** Populaires ***********/
