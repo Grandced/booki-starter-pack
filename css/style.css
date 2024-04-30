@@ -20,6 +20,10 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+/* Liens dans le coin supérieur droit */
+nav.links {
+    display: flex;
+}
 
 .container {
     display: flex;
@@ -31,10 +35,7 @@ section {
     text-align: left;
 }
 
-/* Liens dans le coin supérieur droit */
-nav.links {
-    margin-left: auto;
-}
+
 
 body {
     display: flex;
