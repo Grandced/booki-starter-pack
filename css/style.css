@@ -89,14 +89,24 @@ body {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 35px;
-    box-sizing: border-box;
+    box-sizing:content-box;
 }
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 100%;
+    width: 63%;
 }
 
+.hebergements-cards .card {
+    display:contents;
+    margin-top: 33px;
+}
+.hebergements-cards img {
+    width: 63%;
+    height: 134px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 /****** Populaires ***********/
 .populaires {
     width: 31%;
