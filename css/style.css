@@ -80,16 +80,16 @@ body {
 }
 /***** Recherche *****/
 .bouton {
-    border: none;
+    border: 2px solid gray;
     border-radius: 20px; /* rondeur du boutton */
     padding: 10px 20px;
-    background-color:var(--main-bg-color);
+    background-color:white;
     color: black; /* Couleur du texte */
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 20px;
+    margin: 6px 2px;
     cursor: pointer;
   }
 
@@ -191,6 +191,7 @@ body {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
