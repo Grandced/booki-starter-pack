@@ -78,6 +78,20 @@ body {
 .neutralStar {
     color: var(--main-bg-color)
 }
+/***** Recherche *****/
+.bouton {
+    border: none;
+    border-radius: 20px; /* rondeur du boutton */
+    padding: 10px 20px;
+    background-color:var(--main-bg-color);
+    color: black; /* Couleur du texte */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -107,7 +121,7 @@ body {
     margin-bottom: 20px; /* Espacement entre les lignes */
     display:column;/*texte sous la photo*/
     margin-top: 33px;
-    width: 260px; /* Largeur fixe */
+    width: 250px; /* Largeur fixe */
     height: 240px; /* Hauteur fixe */
 }
 .hebergements-cards img {
