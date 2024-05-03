@@ -1,4 +1,4 @@
-/****** General ***********/
+/******************************* General ******************************/
 * {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -14,24 +14,6 @@
     color: var(--main-color);
 }
 
-/*style Logo et links */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-/* Lien par défaut */
-a {
-    color: black; /* Couleur du texte par défaut */
-    text-decoration: none; /* Supprimer le soulignement par défaut */
-}
-
-/* Lien bleu avec soulignement après survol */
-a:hover {
-    color:var(--main-color); /* link bleu survol */
-    border-top: solid 0.2rem var(--main-color);/*ligne bleu survol*/
-    padding-top: 1.2rem;/*valeur d'espacement de la ligne bleu*/
-}
 
 
 .container {
@@ -42,6 +24,7 @@ a:hover {
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -78,7 +61,35 @@ body {
 .neutralStar {
     color: var(--main-bg-color)
 }
-/***** Recherche *****/
+/******************************* Header ******************************/
+/****** Logo ******/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width:100px;
+    margin-top: 20px;
+}
+/****** Nav ******/
+
+.links a {
+    color: black; /* Couleur du texte par défaut */
+    text-decoration: none; /* Supprimer le soulignement par défaut */
+}
+/* Lien bleu avec soulignement après survol */
+.links a:hover {
+    color:var(--main-color); /* link bleu survol */
+    border-top: solid 0.2rem var(--main-color);/*ligne bleu survol*/
+    padding-top: 1.2rem;/*valeur d'espacement de la ligne bleu*/
+}
+.links .first-link {
+    margin-right: 25px;
+}
+
+
+/******************************* Recherche ******************************/
 .bouton {
     border: 2px solid gray;
     border-radius: 20px; /* rondeur du boutton */
@@ -109,8 +120,7 @@ body {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 67%;/*taille de la card*/
-    
+    width: 67%;/*taille de la card*/   
 }
 .hebergements-cards {
     display:flex;
