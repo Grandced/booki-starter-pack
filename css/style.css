@@ -71,6 +71,7 @@ header {
 .logo {
     width:100px;
     margin-top: 20px;
+    margin-left: 10px;
 }
 /****** Nav ******/
 
@@ -80,9 +81,9 @@ header {
 }
 /* Lien bleu avec soulignement après survol */
 .links a:hover {
-    color:var(--main-color); /* link bleu survol */
+    color:var(--main-color); /******* link bleu survol ******/
     border-top: solid 0.2rem var(--main-color);/*ligne bleu survol*/
-    padding-top: 1.2rem;/*valeur d'espacement de la ligne bleu*/
+    padding-top: 10px;/*valeur d'espacement de la ligne bleu*/
 }
 .links .first-link {
     margin-right: 25px;
@@ -104,7 +105,7 @@ header {
     cursor: pointer;
   }
 
-/****** Hebergements And Populaires ***********/
+/*************************** Hebergements And Populaires *******************/
 .hebergements-and-populaires {
     display:flex;
     flex-wrap: wrap;
@@ -202,7 +203,7 @@ header {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
 
-    .hebergements-and-populaires {
+!    .hebergements-and-populaires {
         flex-direction: column;
     }
 
