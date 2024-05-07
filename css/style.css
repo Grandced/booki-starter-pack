@@ -118,7 +118,7 @@ header {
     box-sizing:border-box ;
 }
 
-/****** Hebergements ***********/
+/**************************** Hebergements ***********************************/
 .hebergements {
     width: 65%;/*taille de la card*/   
 }
