@@ -1,4 +1,4 @@
-/****** General ***********/
+/******************************* General ******************************/
 * {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -14,22 +14,6 @@
     color: var(--main-color);
 }
 
-header {/*style Logo et links */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-a { margin: 10PX;/*espacelment entre les lien */
-    color: black; /* Couleur du texte par défaut */
-    text-decoration: none; /* Supprimer le soulignement par défaut */
-}
-
-a:hover {/* Lien bleu avec soulignement après survol */
-    color:var(--main-color); /* link bleu survol */
-    border-top: solid 0.2rem var(--main-color);/*ligne bleu survol*/
-    padding-top: 1.2rem;/*valeur d'espacement de la ligne bleu*/
-}
 
 
 .container {
@@ -40,6 +24,7 @@ a:hover {/* Lien bleu avec soulignement après survol */
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 .main-container {
@@ -76,23 +61,96 @@ body {
 .neutralStar {
     color: var(--main-bg-color)
 }
-
-/****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
+/******************************* Header ******************************/
+/****** Logo ******/
+header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width:100px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/****** Nav ******/
+
+.links a {
+    color: black; /* Couleur du texte par défaut */
+    text-decoration: none; /* Supprimer le soulignement par défaut */
+}
+/* Lien bleu avec soulignement après survol */
+.links a:hover {
+    color:var(--main-color); /******* link bleu survol ******/
+    border-top: solid 0.2rem var(--main-color);/*ligne bleu survol*/
+    padding-top: 10px;/*valeur d'espacement de la ligne bleu*/
+}
+.links .first-link {
+    margin-right: 25px;
+}
+
+/******************************* Recherche ******************************/
+.bouton {
+    border: 2px solid gray;
+    border-radius: 20px; /* rondeur du boutton */
+    padding: 10px 20px;
+    background-color:white;
+    color: black; /* Couleur du texte */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 6px 2px;
+    cursor: pointer;
+  }
+
+/*************************** Hebergements And Populaires *******************/
+.hebergements-and-populaires {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
 }
 
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 35px;
-    box-sizing: border-box;
+    box-sizing:border-box ;
 }
 
 /****** Hebergements ***********/
 .hebergements {
+    width: 65%;/*taille de la card*/   
+}
+.hebergements-cards {
+    display:flex;
+    flex-wrap: wrap; /* passage à la ligne  */
+    justify-content:space-around; 
+}
+.hebergements-cards .card {
+    margin-bottom: 20px; /* Espacement entre les lignes */
+    display:column;/*texte sous la photo*/
+    margin-top: 33px;
+    width: 250px; /* Largeur fixe */
+    height: 240px; /* Hauteur fixe */
+}
+.hebergements-cards img {
+    width: 100%;/*remplissage de la card*/
+    height: 134px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
     width: 100%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing:border-box;
+}
+.hebergements-cards .card-rating {
+    margin-bottom: 5 px;
 }
 
 /****** Populaires ***********/
@@ -143,7 +201,8 @@ body {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    .hebergements-and-populaires {
+
+!    .hebergements-and-populaires {
         flex-direction: column;
     }
 
