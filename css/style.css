@@ -121,7 +121,7 @@ header {
 
 /****** Hebergements ***********/
 .hebergements {
-    width: 67%;/*taille de la card*/   
+    width: 65%;/*taille de la card*/   
 }
 .hebergements-cards {
     display:flex;
