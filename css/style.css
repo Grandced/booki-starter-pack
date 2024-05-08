@@ -95,8 +95,8 @@ header {
     display: flex;
 }
 /*********** Style de l'icône ***************/
-.icone {     
-    padding: 10px 20px;
+.icone {    
+    padding: 20px 20px;
     background-color: #F2F2F2;
     color:black;
     text-align: center;
@@ -104,14 +104,19 @@ header {
     cursor: pointer;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    font-size: 18px;
 }
   
 /******** Style du champ de saisie **********/
 .search-input {
     text-align: center;
-    color: #000000 100%;
+    color:black;
+    font-weight:bold;
+    background-color:white;
     border: 1px solid #F2F2F2;
     outline:none;
+    font-size: 20px;
+    opacity: 100%;
 }
   
 /************ bouton 'Rechercher' ***********/
@@ -123,29 +128,41 @@ header {
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     cursor: pointer;
+    font-size: 20px;
 }
   
 /************** survol du bouton *************/
+.conteneur-filtres {
+    display:inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
 .button-filtre {
     border: 2px solid #d9d9d9;
     border-radius: 30px; /* rondeur du boutton */
     padding: 20px 20px;
-    background-color:white;
-    color: black; /* Couleur du texte */
+    background-color:rgba(0, 0, 0, 0);
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     margin: 6px 2px;
-    cursor: pointer;
+  
 }
+.button-inside {
+    background-color:white;
+    color: black;
+    border: none;
+    font-size: 20px;
+}
+ /* Changement de couleur du texte au survol */
 .button-filtre:hover {
     background-color: #DEEBFF;
-    color: white; /* Changement de couleur du texte au survol */
+   
 }
-.section-recherche {
-    h2 color:black;
-}
+
+
+
 /*************************** Hebergements And Populaires *******************/
 .hebergements-and-populaires {
     display:flex;
