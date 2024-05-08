@@ -62,7 +62,7 @@ body {
     color: var(--main-bg-color)
 }
 /******************************* Header ******************************/
-/****** Logo ******/
+/************** Logo *******************/
 header {
     display: flex;
     justify-content: space-between;
@@ -73,7 +73,7 @@ header {
     margin-top: 20px;
     margin-left: 10px;
 }
-/****** Nav ******/
+/******************************** Nav ********************************/
 
 .links a {
     color: black; /* Couleur du texte par défaut */
@@ -89,11 +89,47 @@ header {
     margin-right: 25px;
 }
 
-/******************************* Recherche ******************************/
-.bouton {
-    border: 2px solid gray;
-    border-radius: 20px; /* rondeur du boutton */
+/******************************* Boutton Recherche ******************************/
+/* Style de la barre de recherche */
+.search-bar {
+    display: flex;
+}
+/*********** Style de l'icône ***************/
+.icone {     
     padding: 10px 20px;
+    background-color: #F2F2F2;
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+  
+/******** Style du champ de saisie **********/
+.search-input {
+    text-align: center;
+    color: #000000 100%;
+    border: 1px solid #F2F2F2;
+    outline:none;
+}
+  
+/************ bouton 'Rechercher' ***********/
+.search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+  
+/************** survol du bouton *************/
+.button-filtre {
+    border: 2px solid #d9d9d9;
+    border-radius: 30px; /* rondeur du boutton */
+    padding: 20px 20px;
     background-color:white;
     color: black; /* Couleur du texte */
     text-align: center;
@@ -102,8 +138,14 @@ header {
     font-size: 20px;
     margin: 6px 2px;
     cursor: pointer;
-  }
-
+}
+.button-filtre:hover {
+    background-color: #DEEBFF;
+    color: white; /* Changement de couleur du texte au survol */
+}
+.section-recherche {
+    h2 color:black;
+}
 /*************************** Hebergements And Populaires *******************/
 .hebergements-and-populaires {
     display:flex;
