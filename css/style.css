@@ -184,11 +184,11 @@ header {
     justify-content:space-around; 
 }
 .hebergements-cards .card {
-    margin-bottom: 20px; /* Espacement entre les lignes */
+    margin-bottom: 2px; /* Espacement entre les lignes */
     display:column;/*texte sous la photo*/
     margin-top: 33px;
-    width: 250px; /* Largeur fixe */
-    height: 240px; /* Hauteur fixe */
+    width: 260px; 
+    height: 250px; 
 }
 .hebergements-cards img {
     width: 100%;/*remplissage de la card*/
@@ -206,7 +206,7 @@ header {
     box-sizing:border-box;
 }
 .hebergements-cards .card-rating {
-    margin-bottom: 5 px;
+    margin-bottom: 5px;
 }
 /**************************** populaires ***********************************/
 .populaires {
@@ -252,6 +252,49 @@ header {
 .populaires-cards .card-rating {
     margin-bottom: 7px;
 }
+
+/**************************** Activites a Marseille ***********************************/
+.activites {
+    width: 100%; 
+}
+.activites-cards {
+    display:flex;
+    flex-wrap: wrap; /* passage à la ligne  */
+    justify-content:space-around; 
+}
+.activites-cards .card {
+    margin-bottom: 40px; /* Espacement entre les lignes */
+    display:column;/*texte sous la photo*/
+    margin-top: 33px;
+    width: 300px; 
+    height: 500px; 
+}
+.activites-cards img {
+    width: 100%;/*remplissage de la card*/
+    height: 460px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites.card-content {
+    width: 100%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing:border-box;
+}
+.activites-cards .card-rating {
+    margin-bottom: 10px;
+}
+/************************************** Footer ****************************************/
+.footer {
+    display:flex;
+    justify-content:space-between;
+
+}
+
+
 /**************************** Media queries ***********************************/
 
 /* Medium devices (tablets, less/equal than 1024px) */
