@@ -136,11 +136,12 @@ header {
     display:inline-flex;
     flex-wrap: wrap;
     align-items: center;
+    border: 20px;
     
 }
 .button-filtre {
     border: 2px solid #d9d9d9;
-    border-radius: 30px; /* rondeur du boutton */
+    border-radius: 30px;
     padding: 20px 20px;
     background-color:rgba(0, 0, 0, 0);
     text-align: center;
@@ -155,13 +156,9 @@ header {
     border: none;
     font-size: 20px;
 }
- /* Changement de couleur du texte au survol */
 .button-filtre:hover {
-    background-color: #DEEBFF;
-   
+    background-color: #DEEBFF;  
 }
-
-
 
 /*************************** Hebergements And Populaires *******************/
 .hebergements-and-populaires {
@@ -179,7 +176,7 @@ header {
 
 /**************************** Hebergements ***********************************/
 .hebergements {
-    width: 65%;/*taille de la card*/   
+    width: 65%; 
 }
 .hebergements-cards {
     display:flex;
@@ -211,8 +208,7 @@ header {
 .hebergements-cards .card-rating {
     margin-bottom: 5 px;
 }
-
-/****** Populaires ***********/
+/**************************** populaires ***********************************/
 .populaires {
     width: 31%;
 }
@@ -256,10 +252,11 @@ header {
 .populaires-cards .card-rating {
     margin-bottom: 7px;
 }
+/**************************** Media queries ***********************************/
 
-/****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -290,7 +287,6 @@ header {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
-}
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
