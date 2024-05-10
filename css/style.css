@@ -33,9 +33,13 @@ body {
     padding: 0 50px;
     box-sizing: border-box;
 }
+a {
+    color: inherit;
+    text-decoration: none;
+}
 
 .section-title {
-    margin: 0;
+    margin: 5px;
     font-size: 22px;
 }
 
@@ -64,6 +68,7 @@ body {
 /******************************* Header ******************************/
 /************** Logo *******************/
 header {
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,10 +93,12 @@ header {
 .links .first-link {
     margin-right: 25px;
 }
-
+.links .seconde-link {
+    margin-right: 25px;
+}
 /******************************* Boutton Recherche ******************************/
-/* Style de la barre de recherche */
 .search-bar {
+    margin-top: 50px;
     display: flex;
 }
 /*********** Style de l'icône ***************/
@@ -115,7 +122,7 @@ header {
     background-color:white;
     border: 1px solid #F2F2F2;
     outline:none;
-    font-size: 20px;
+    font-size: 15px;
     opacity: 100%;
 }
   
@@ -130,15 +137,17 @@ header {
     cursor: pointer;
     font-size: 20px;
 }
-  
-/************** survol du bouton *************/
+
+/********************************* Filtre ***************************/
 .conteneur-filtres {
-    display:inline-flex;
+    margin-top: 50px;
+    display:flex;
     flex-wrap: wrap;
-    align-items: center;
-    border: 20px;
-    
+    align-items:baseline;
+    justify-content: space-around;
+    border: 20px; 
 }
+
 .button-filtre {
     border: 2px solid #d9d9d9;
     border-radius: 30px;
@@ -162,6 +171,7 @@ header {
 
 /*************************** Hebergements And Populaires *******************/
 .hebergements-and-populaires {
+    margin-top: 30px;
     display:flex;
     flex-wrap: wrap;
     justify-content:space-between;
@@ -256,6 +266,7 @@ header {
 /**************************** Activites a Marseille ***********************************/
 .activites {
     width: 100%; 
+    justify-content: center;
 }
 .activites-cards {
     display:flex;
@@ -290,8 +301,7 @@ header {
 /************************************** Footer ****************************************/
 .footer {
     display:flex;
-    justify-content:space-between;
-
+    justify-content:space-evenly;
 }
 
 
