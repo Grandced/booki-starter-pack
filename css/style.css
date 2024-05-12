@@ -67,10 +67,10 @@ a {
     color: var(--main-bg-color)
 }
 /******************************* Header ******************************/
-/************** Logo *******************/
-header {
-    margin-bottom: 50px;
-    display: flex;
+/****************** Logo *******************/
+.header {
+  
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -79,7 +79,7 @@ header {
     margin-top: 20px;
     margin-left: 10px;
 }
-/******************************** Nav ********************************/
+/****************** Nav ********************/
 
 .links a {
     color: black; /* Couleur du texte par défaut */
@@ -275,9 +275,9 @@ header {
     justify-content:space-around; 
 }
 .activites-cards .card {
-    margin-bottom: 40px; /* Espacement entre les lignes */
+    margin-bottom: 10px; /* Espacement entre les lignes */
     display:column;/*texte sous la photo*/
-    margin-top: 33px;
+    margin-top: 15px;
     width: 300px; 
     height: 500px; 
 }
