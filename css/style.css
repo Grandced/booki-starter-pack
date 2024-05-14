@@ -69,15 +69,17 @@ a {
 /******************************* Header ******************************/
 /************** Logo *******************/
 .header {
-    margin-top: 20px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 70px;
+    margin-top: 20px;
 }
 .logo {
     width:100px;
     margin-top: px;
     margin-left: 10px;
 }
+p{font-weight: normal;}
 /******************************** Nav ********************************/
 
 .links a {
