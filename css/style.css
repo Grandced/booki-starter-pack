@@ -67,9 +67,16 @@ a {
     color: var(--main-bg-color)
 }
 /******************************* Header ******************************/
+<<<<<<< HEAD
+/****************** Logo *******************/
+.header {
+  
+    flex-wrap: wrap;
+=======
 /************** Logo *******************/
 .header {
     display: flex;
+>>>>>>> fe11512919fd751ca120c46f151304341a49f8f9
     justify-content: space-between;
     margin-bottom: 70px;
     margin-top: 20px;
@@ -79,8 +86,12 @@ a {
     margin-top: px;
     margin-left: 10px;
 }
+<<<<<<< HEAD
+/****************** Nav ********************/
+=======
 p{font-weight: normal;}
 /******************************** Nav ********************************/
+>>>>>>> fe11512919fd751ca120c46f151304341a49f8f9
 
 .links a {
     color: black; /* Couleur du texte par défaut */
@@ -276,9 +287,9 @@ p{font-weight: normal;}
     justify-content:space-around; 
 }
 .activites-cards .card {
-    margin-bottom: 40px; /* Espacement entre les lignes */
+    margin-bottom: 10px; /* Espacement entre les lignes */
     display:column;/*texte sous la photo*/
-    margin-top: 33px;
+    margin-top: 15px;
     width: 300px; 
     height: 500px; 
 }
