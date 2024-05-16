@@ -61,7 +61,7 @@ a {
     font-weight: 700;
 }
 
-.neutralStar {
+.neutral-star {
     color: var(--main-bg-color)
 }
 /******************************* Header ******************************/
@@ -179,6 +179,9 @@ p{font-weight: normal;}
     background-color: #DEEBFF;  
 }
 
+h3 {
+    font-weight: normal;
+}
 /*************************** Hebergements And Populaires *******************/
 .hebergements-and-populaires {
     margin-top: 30px;
@@ -230,7 +233,7 @@ p{font-weight: normal;}
 }
 /**************************** populaires ***********************************/
 .populaires {
-    width: 31%;
+    width: 32%;
 }
 
 .populaires-title {
@@ -246,13 +249,13 @@ p{font-weight: normal;}
 
 .populaires-cards img {
     width: 37%;
-    height: 134px;
+    height: 136px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 .populaires-cards .card-content {
-    width: 63%;
+    width: 67%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
@@ -261,7 +264,7 @@ p{font-weight: normal;}
 }
 
 .populaires-cards .card-title {
-    margin-top: 11px;
+    margin-top: 10px;
     margin-bottom: 4px;
 }
 
@@ -270,7 +273,7 @@ p{font-weight: normal;}
 }
 
 .populaires-cards .card-rating {
-    margin-bottom: 7px;
+    margin-bottom: 5px;
 }
 
 /**************************** Activites a Marseille ***********************************/
