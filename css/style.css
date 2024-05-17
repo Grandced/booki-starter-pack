@@ -224,7 +224,7 @@ h3{
 
 /**************************** Hebergements ***********************************/
 .hebergements {
-    width: 65%; 
+    width: 63%; 
 }
 .hebergements-cards {
     display:flex;
@@ -235,8 +235,8 @@ h3{
     margin-bottom: 2px; /* Espacement entre les lignes */
     display:column;/*texte sous la photo*/
     margin-top: 33px;
-    width: 260px; 
-    height: 250px; 
+    width: 250px; 
+    height: 245px; 
 }
 .hebergements-cards img {
     width: 100%;/*remplissage de la card*/
@@ -263,7 +263,7 @@ h3{
 }
 /**************************** populaires ***********************************/
 .populaires {
-    width: 35%;
+    width: 32%;
 }
 
 .populaires-title {
