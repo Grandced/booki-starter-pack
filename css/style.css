@@ -182,10 +182,11 @@ h3{
 }
 .button-inside {
     font-weight:bold;
-    background-color:white;
+    background-color:transparent;
     color: black;
     border: none;
     font-size: 20px;
+    
     
 }
 .button-filtre:hover {
@@ -210,8 +211,8 @@ h3{
 .hebergements-and-populaires {
     margin-top: 30px;
     display:flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
+    flex-wrap:wrap;
+    justify-content:space-around;
 }
 
 .hebergements-and-populaires section {
@@ -223,11 +224,11 @@ h3{
 
 /**************************** Hebergements ***********************************/
 .hebergements {
-    width: 62%; 
+    width: 65%; 
 }
 .hebergements-cards {
     display:flex;
-    flex-wrap: wrap; /* passage à la ligne  */
+    flex-wrap:wrap; /* passage à la ligne  */
     justify-content:space-around; 
 }
 .hebergements-cards .card {
@@ -254,6 +255,11 @@ h3{
 }
 .hebergements-cards .card-rating {
     margin-bottom: 5px;
+}
+.hebergement-afficher-plus {
+    margin-top: 35px;
+    font-size: 20px;
+
 }
 /**************************** populaires ***********************************/
 .populaires {
