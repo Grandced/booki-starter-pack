@@ -1,7 +1,7 @@
 /******************************* General ******************************/
 * {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700;
+    font-weight:700;
 }
 
 :root {
@@ -79,8 +79,9 @@ a {
 }
 .logo {
     width:100px;
-    margin-top: px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 5px;
 }
 
 /****************** Nav ********************/
@@ -106,6 +107,8 @@ p{font-weight: normal;}
 .links .seconde-link {
     margin-right: 25px;
 }
+h3{
+    font-weight: normal;}
 /******************************* Boutton Recherche ******************************/
 .search-bar {
     margin-top: 50px;
@@ -150,12 +153,15 @@ p{font-weight: normal;}
 
 /********************************* Filtre ***************************/
 .conteneur-filtres {
-    margin-top: 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     display:flex;
     flex-wrap: wrap;
     align-items:baseline;
-    justify-content: space-around;
-    border: 20px; 
+    justify-content: space-between;
+}
+.section-recherche h3{
+    font-weight: normal;
 }
 
 .button-filtre {
@@ -165,7 +171,7 @@ p{font-weight: normal;}
     background-color:rgba(0, 0, 0, 0);
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     margin: 6px 2px;
   
 }
@@ -179,9 +185,6 @@ p{font-weight: normal;}
     background-color: #DEEBFF;  
 }
 
-h3 {
-    font-weight: normal;
-}
 /*************************** Hebergements And Populaires *******************/
 .hebergements-and-populaires {
     margin-top: 30px;
@@ -272,11 +275,16 @@ h3 {
     margin: 0;
 }
 
-.populaires-cards .card-rating {
+.populaires-cards .card-title {
     margin-bottom: 5px;
 }
 
 /**************************** Activites a Marseille ***********************************/
+.activites-title{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
 .activites {
     width: 100%; 
     justify-content: center;
@@ -284,14 +292,14 @@ h3 {
 .activites-cards {
     display:flex;
     flex-wrap: wrap; /* passage à la ligne  */
-    justify-content:space-around; 
+    justify-content:space-between; 
 }
 .activites-cards .card {
-    margin-bottom: 70px; /* Espacement entre les lignes */
-    display:column;/*texte sous la photo*/
+    margin-bottom: 50px; /* Espacement entre les lignes */
     margin-top: 15px;
-    width: 300px; 
-    height: 500px; 
+    width: 340px; 
+   
+    padding: 0;
 }
 .activites-cards img {
     width: 100%;/*remplissage de la card*/
@@ -300,30 +308,45 @@ h3 {
     border-top-right-radius: 20px;
 }
 
-.activites.card-content {
+.activites .card-content {
     width: 100%;
-    padding-left: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-sizing:border-box;
+    flex-direction:row;
+    justify-content: space-evenly;
+    box-sizing:border;
+    margin-bottom: 0px;
 }
 .activites-cards .card-rating {
     margin-bottom: 10px;
 }
+.activites-titel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15px
+}
 /************************************** Footer ****************************************/
 .footer {
-    padding: 35px;
     background-color: var(--main-bg-color);
+    padding: 10px;
+    padding: 35px;
     display:flex;
+    align-content: flex-start;
     justify-content:space-between;
     }
-h3{font-weight: bold;}
+
+h3{
+    font-weight: bold;
+}
+.footer-links{
+    font-weight: normal;
+    margin-top: 15px;
+}
 ul {
-    font-weight: normal !important;
     list-style: none;
     padding: 0;
 }
+
 
 /**************************** Media queries ***********************************/
 
