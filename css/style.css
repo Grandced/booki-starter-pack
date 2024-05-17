@@ -1,7 +1,7 @@
 /******************************* General ******************************/
 * {
     font-family: 'Raleway', sans-serif;
-    font-weight:700;
+    font-weight:normal;
 }
 
 :root {
@@ -70,7 +70,9 @@ a {
 .header {
     flex-wrap: wrap;
 }
-
+h1{
+    font-weight: bold;
+}
 /************** Logo *******************/
 .header {
     margin-top: 20px;
@@ -89,7 +91,9 @@ p{font-weight: normal;}
 
 
 /******************************** Nav ********************************/
-
+h2{
+    font-weight: bold;
+}
 
 .links a {
     color: black; /* Couleur du texte par défaut */
@@ -99,10 +103,10 @@ p{font-weight: normal;}
 .links a:hover {
     color:var(--main-color); /******* link bleu survol ******/
     border-top: solid 0.2rem var(--main-color);/*ligne bleu survol*/
-    padding-top: 10px;/*valeur d'espacement de la ligne bleu*/
+    padding-top: 15px;/*valeur d'espacement de la ligne bleu*/
 }
 .links .first-link {
-    margin-right: 25px;
+    margin-right: 100px;
 }
 .links .seconde-link {
     margin-right: 25px;
@@ -141,6 +145,7 @@ h3{
   
 /************ bouton 'Rechercher' ***********/
 .search-button {
+    font-weight:bold;
     background-color: #007bff;
     color: white;
     border: none;
@@ -176,13 +181,29 @@ h3{
   
 }
 .button-inside {
+    font-weight:bold;
     background-color:white;
     color: black;
     border: none;
     font-size: 20px;
+    
 }
 .button-filtre:hover {
     background-color: #DEEBFF;  
+}
+
+.info  {
+    display: flex;
+    align-items: flex-start;
+}
+.button-info {
+    border: 2px solid #d9d9d9;
+    border-radius: 30px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 15px 10px;
 }
 
 /*************************** Hebergements And Populaires *******************/
