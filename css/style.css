@@ -287,7 +287,7 @@ h3 {
     justify-content:space-around; 
 }
 .activites-cards .card {
-    margin-bottom: 10px; /* Espacement entre les lignes */
+    margin-bottom: 70px; /* Espacement entre les lignes */
     display:column;/*texte sous la photo*/
     margin-top: 15px;
     width: 300px; 
@@ -302,7 +302,7 @@ h3 {
 
 .activites.card-content {
     width: 100%;
-    padding-left: 15px;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -313,10 +313,17 @@ h3 {
 }
 /************************************** Footer ****************************************/
 .footer {
+    padding: 35px;
+    background-color: var(--main-bg-color);
     display:flex;
-    justify-content:space-evenly;
+    justify-content:space-between;
+    }
+h3{font-weight: bold;}
+ul {
+    font-weight: normal !important;
+    list-style: none;
+    padding: 0;
 }
-
 
 /**************************** Media queries ***********************************/
 
