@@ -341,7 +341,7 @@ h3{
     flex-direction:row;
     justify-content: space-evenly;
     box-sizing:border;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .activites-cards .card-rating {
     margin-bottom: 10px;
