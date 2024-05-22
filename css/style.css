@@ -211,10 +211,9 @@ h3{
 
 /*************************** Hebergements And Populaires *******************/
 .hebergements-and-populaires {
-    margin-top: 30px;
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-around;
+    justify-content:space-between;
 }
 
 .hebergements-and-populaires section {
