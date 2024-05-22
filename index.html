@@ -19,8 +19,8 @@
             <div class="header">
             <img class="logo" src="images/logo/Booki.png" alt="Booki">
                 <nav class="links">
-                    <a class="first-link" href="#" title="hébergements">Hébergement</a><!--links hebergement-->
-                    <a class="seconde-link" href="#" title="activités">Activités</a><!--links activite-->
+                    <a class="first-link" href="#section-hebergement" title="hébergements">Hébergements</a><!--links hebergement-->
+                    <a class="second-link" href="#section-activite" title="activités">Activités</a><!--links activite-->
                 </nav>
             </div>
                 <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -62,14 +62,11 @@
                     </div>
                 </section>       
             </div>
-
             <!--hébergement Marseille / Les plus populaires-->
-            <div class="hebergements-and-populaires section">
+            <div class="hebergements-and-populaires">
             <!--hébergement Marseille-->
-                <section class="hebergements ">
-                    <div class="populaire-title">
-                        <h1 class="section-title">Hébergements à Marseille</h1>
-                    </div>
+            <section class="hebergements ">
+                <h2 id="section-hebergement" class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
                         <a href="#"><!--Hôtel du port-->
                             <article class="card">
@@ -189,14 +186,14 @@
                     <a href="#">
                         <H2 class="hebergement-afficher-plus">Afficher plus</H2>
                     </a>
-                </section>
+            </section>
             <!--Les plus populaires-->
-                <section class="populaires">
-                    <div class="populaires-title">
-                        <h2 class="section-title">Les plus populaires</h2>
-                        <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
-                    </div>
-                    <div class="populaires-cards">
+            <section class="populaires">
+                <div class="populaires-title">
+                    <h2 class="section-title">Les plus populaires</h2>
+                    <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                </div>
+                <div class="populaires-cards">
                         <a href="#"><!--Hôtel Le soleil du matin-->
                             <article class="card">
                                 <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
@@ -254,52 +251,37 @@
                                 </div>
                             </article>
                         </a>
-                    </div>
-                </section>
+                </div>
+            </section>
             </div>
             <!--Activités à Marseille-->
-                <H2 class="activites-title">Activités à Marseille</H2>
-            <section class="activites-cards ">
+            <section class>
+                <H2 id="section-activite" class="section-title">Activités à Marseille</H2>
+                <div class="activites-cards">
                 <a href="#"><!--vieux-port-->
                     <article class="card">
                         <img src="./images/activites/reno-laithienne.jpg" alt="Image du vieux-port">
-                        <div class="card-content">
-                            <div class="card-txt activites-titel ">
-                                <h3 class="card-title">Vieux-Port</h3>
-                            </div>
-                        </div>
+                                <h3 class="activites-titel">Vieux-Port</h3>
                     </article>
                 </a><a href="#"><!--Fort de Pomègues-->
                     <article class="card">
                         <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
-                        <div class="card-content">
-                            <div class="card-txt activites-titel ">
-                                <h3 class="card-title">Fort de Pomègues</h3>
-                            </div>
-                        </div>
+                                <h3 class="activites-titel">Fort de Pomègues</h3>
                     </article>
                 </a><a href="#"><!--Parc national des Calanques-->
                     <article class="card">
                         <img src="./images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques">
-                        <div class="card-content">
-                            <div class="card-txt activites-titel">
-                                <h3 class="card-title">Parc national des Calanques</h3>
-                            </div>
-                        </div>
+                                <h3 class="activites-titel">Parc national des Calanques</h3>
                     </article>
                 </a><a href="#"><!--Notre-Dame-de-le-Garde-->
                     <article class="card">
                         <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame-de-le-Garde">
-                        <div class="card-content">
-                            <div class="card-txt activites-titel">
-                                <h3 class="card-title activites-titel">Notre-Dame-de-le-Garde</h3>
-                            </div>
-                        </div>
+                            <h3 class="activites-titel">Notre-Dame-de-le-Garde</h3>
                     </article>
                 </a>
+            </div>
             </section>
         </main>
-
         <footer class="footer"><!--À propos-->
             <div>
                 <h3>À propos</h3>
