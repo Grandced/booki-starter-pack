@@ -3,12 +3,11 @@
     font-family: 'Raleway', sans-serif;
     font-weight:normal;
 }
-*{outline:1px solid red;}
 
 :root {
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+    --filter-bg-color: #2b3b53;
 }
 
 .fa-solid {
