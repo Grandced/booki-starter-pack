@@ -233,7 +233,8 @@ h3{
 }
 .hebergements-cards .card {
     margin-bottom: 2px; /* Espacement entre les lignes */
-    display:column;/*texte sous la photo*/
+    display:flex;/*texte sous la photo*/
+    flex-direction: column;
     margin-top: 33px;
     width: 250px; 
     height: 245px; 
@@ -327,8 +328,7 @@ h3{
     border-top-right-radius: 20px;
 }
 .activites-titel {
-    margin-left: 15px;
-    
+    margin-left: 32px;
 }
 /************************************** Footer ****************************************/
 .footer {
@@ -355,6 +355,9 @@ ul {
 
 /**************************** Media queries ***********************************/
 
+/* Le code ci-dessous correspond à la version responsive uniquement */
+
+/****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
