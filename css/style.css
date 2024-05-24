@@ -313,15 +313,11 @@ h3{
 
 .activites-cards {
     display:flex;
-    justify-content:center; 
-    column-gap: 1%;
-    margin-left: 10px;
-    margin-bottom: 50px;
 }
 .activites-cards .card {
-    margin-top: 15px;
-    width: 80%; 
-    padding: 0px 50px 5px
+    -margin-top: 15px;
+   _width: 100%; 
+    -padding: 0px 50px 5px
 }
 .activites-cards img {
     width: 100%;/*remplissage de la card*/
