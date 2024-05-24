@@ -321,7 +321,7 @@ h3{
 .activites-cards .card {
     margin-top: 15px;
     width: 80%; 
-    padding: 0px 0px 5px
+    padding: 0px 50px 5px
 }
 .activites-cards img {
     width: 100%;/*remplissage de la card*/
