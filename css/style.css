@@ -1,5 +1,7 @@
 /******************************* General ******************************/
 * {
+    outline:1px solid red}
+* {
     font-family: 'Raleway', sans-serif;
     font-weight:normal;
 }
@@ -310,14 +312,16 @@ h3{
 }
 
 /**************************** Activites a Marseille ***********************************/
+.activites {
+    display:flex;
+    flex-wrap:wrap;
+    gap:1%;
+    justify-content: center;
+}
 
 .activites-cards {
-    display:flex;
-}
-.activites-cards .card {
-    -margin-top: 15px;
-   _width: 100%; 
-    -padding: 0px 50px 5px
+    width: 23%;
+    padding:0px;
 }
 .activites-cards img {
     width: 100%;/*remplissage de la card*/
@@ -326,7 +330,7 @@ h3{
     border-top-right-radius: 20px;
 }
 .activites-titel {
-    margin-left: 32px;
+    margin-right: 35px;
 }
 /************************************** Footer ****************************************/
 .footer {
