@@ -315,21 +315,18 @@ h3{
 .activites {
     display:flex;
     flex-direction:row;
+    flex-wrap: wrap;
     gap:1%;
-    justify-content:space-between;
-    background-color: red;
+    justify-content:space-around;
 }
 
 .activites-cards {
-    margin-left: 30px;
-    width: 40%;
-    padding: 0;
-    background-color:blue;
-    
+    width: 23%;
+    padding: 0;    
 }
 .activites .card{
     padding: 0;
-    _background-color: pink;
+    background-color: pink;
 }
 
 h2{margin-left: 30px;}
