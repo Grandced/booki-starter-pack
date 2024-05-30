@@ -370,9 +370,9 @@ h2{margin-left: 30px;}
     padding: 35px;
     display:flex;
     flex-direction:row;
-    align-content : center;
     flex-wrap: wrap;
     gap:20%;
+    align-items: flex-start;
     
     }
 .section-footer{
