@@ -76,6 +76,7 @@ a {
 }
 h1{
     font-weight: bold;
+    font-size: 25px;
 }
 /************** Logo *******************/
 .header {
@@ -84,7 +85,7 @@ h1{
     justify-content: space-between;
 }
 .logo {
-    width:100px;
+    width:70px;
     margin-top: 10px;
     margin-bottom: 50px;
     margin-left: 5px;
@@ -97,8 +98,13 @@ p{font-weight: normal;}
 /******************************** Nav ********************************/
 h2{
     font-weight: bold;
-}
+   }
+.header-p{
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 0px;
 
+}
 .links a {
     color: black; /* Couleur du texte par défaut */
     text-decoration: none; /* Supprimer le soulignement par défaut */
@@ -108,19 +114,24 @@ h2{
 .links a:hover {
     color:var(--main-color); /******* link bleu survol ******/
     border-top: solid 0.2rem var(--main-color);/*ligne bleu survol*/
-    padding-top: 15px;/*valeur d'espacement de la ligne bleu*/
+    padding-top: 17px;/*valeur d'espacement de la ligne bleu*/
 }
 .links .first-link {
-    margin-right: 100px;
+    margin-right: 50px;
+    font-size: medium;
+    background-color: aquamarine;
+
 }
 .links .seconde-link {
-    margin-right: 25px;
+    margin-right: 10px;
+     font-size: medium;
+    background-color: aquamarine;
 }
 h3{
     font-weight: normal;}
 /******************************* Boutton Recherche ******************************/
 .search-bar {
-    margin-top: 50px;
+    margin-top: 40px;
     display: flex;
 }
 /*********** Style de l'icône ***************/
@@ -141,7 +152,6 @@ h3{
     text-align: center;
     color:black;
     font-weight:bold;
-    background-color:transparent;
     border: 1px solid #F2F2F2;
     outline:none;
     font-size: 15px;    
@@ -166,20 +176,22 @@ h3{
     margin-bottom: 20px;
     display:flex;
     flex-wrap: wrap;
-    align-items:flex-start;
+    align-items:stretch;
     justify-content:flex-start;
-    background-color: pink;
+    background-color:transparent;
 }
-.h2-filtres{
-    display: flex;
-    background-color: rgb(255, 149, 0);
 
+.h2-filtres{
+    margin-top: 5px;
 }
+
 .section-recherche h3{
-    font-weight: normal;
-    
+    font-weight: normal;  
 }
+
 .button-filtre {
+    display: flex;
+    flex-wrap: wrap;
     border: 2px solid #d9d9d9;
     border-radius: 30px;
     padding: 20px 20px;
@@ -187,16 +199,17 @@ h3{
     text-align: center;
     text-decoration: none;
     font-size: 20px;
-    margin: 6px 2px;
-  
+    margin:1%; 
 }
+
 .button-inside {
     font-weight:bold;
     background-color:transparent;
     color: black;
     border: none;
-    font-size: 20px; 
+    font-size: 15px; 
 }
+
 .button-filtre:hover {
     background-color: #DEEBFF;  
 }
@@ -205,6 +218,7 @@ h3{
     display: flex;
     align-items: flex-start;
 }
+
 .button-info {
     border: 2px solid #d9d9d9;
     border-radius: 30px;
