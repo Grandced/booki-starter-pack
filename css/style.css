@@ -27,7 +27,7 @@ body {
     max-width: 1440px;
     min-width: 320px;
     margin: auto;
-    padding:0px 20px 0px 20px;
+    padding:0px 30px 0px 30px;
 }
 
 .main-container {
@@ -247,14 +247,13 @@ h3{
     background-color: var(--main-bg-color);
     border-radius: 20px;
     padding: 2%;
-    margin: 1% 0px 1% 0cqmax;
+    margin: 1% 0px 1% 0px;
     box-sizing:border-box;
 }
 
 /**************************** Hebergements ***********************************/
 .hebergements {
     width: 65%; 
-    background-color:blueviolet;
 }
 .hebergements-cards {
     display:flex;
@@ -308,6 +307,7 @@ p{
 
 .populaires-title {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -353,14 +353,14 @@ p{
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    gap:1%;
+    gap:2%;
     justify-content:center;
     margin-top: 2%;
 }
 
 .activites-cards {
     width: 100%;
-    width: 330px;
+    width: 315px;
     padding: 0;    
 }
 .activites .card{
@@ -424,41 +424,45 @@ ul {
     }
     .filtres {
         width: 100%;
+        margin-top: -10px;
     }
     .hebergements-and-populaires {
-        flex-direction: column;background-color:blueviolet;
+        flex-direction: column
     }
  
     .hebergements {
         width: 100%;
-        background-color:blueviolet;
+    }
+    .hebergements-cards a{
+        width: 32%;
+    }
+    .hebergements-cards .card{
+        width: 97%;
     }
     .populaires {
         width: 100%;
-        margin-top: 50px;
     }
 
     .populaires-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        
     }
 
     .populaires-cards a {
-        width: 32%;background-color: orange;
+        width: 32%;
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
-        background-color: rgb(0, 255, 81);
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size:medium; 
     }
     .activites-cards { 
         width: 23%;
+        background-color: pink;
     }
     .activites-titel {
         width: 80%;
