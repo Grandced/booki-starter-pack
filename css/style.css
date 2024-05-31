@@ -1,5 +1,5 @@
 /******************************* General ******************************/
-_* {
+* {
     outline:1px solid red}
 * {
     font-family: 'Raleway', sans-serif;
@@ -25,6 +25,7 @@ body {
     display: flex;
     justify-content: center;
     max-width: 1440px;
+    min-width: 320px;
     margin: auto;
     padding:0px 20px 0px 20px;
 }
@@ -32,6 +33,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-height: 320px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -73,6 +75,8 @@ a {
 /****************** Logo *******************/
 .header {
     flex-wrap: wrap;
+    background-color: aqua;
+    margin: 0px;
 }
 h1{
     font-weight: bold;
@@ -92,7 +96,9 @@ h1{
 }
 
 /****************** Nav ********************/
-p{font-weight: normal;}
+p {
+    font-weight: normal;
+}
 
 
 /******************************** Nav ********************************/
@@ -130,6 +136,7 @@ h3{
 .search-bar {
     margin-top: 40px;
     display: flex;
+    ;
 }
 /*********** Style de l'icône ***************/
 .icone {    
@@ -151,7 +158,8 @@ h3{
     font-weight:bold;
     border: 1px solid #F2F2F2;
     outline:none;
-    font-size: 15px;    
+    font-size: 15px;   
+    background-color: cadetblue;
 }
   
 /************ bouton 'Rechercher' ***********/
@@ -165,24 +173,22 @@ h3{
     border-bottom-right-radius: 10px;
     cursor: pointer;
     font-size: 20px;
+    background-color: blueviolet;
 }
 
 /********************************* Filtre ***************************/
 .conteneur-filtres {
     margin-top: 35px;
     margin-bottom: 20px;
+    align-items: flex-start; 
     display:flex;
     flex-wrap: wrap;
-    _align-items:stretch;
 }
 
-.filtres{
-    display: flex;
-    align-self: flex-start;
+.filtres {
     align-items: center;
     font-size: 13px;
-    margin-top: 15px;
-    
+    margin-top: 15px;    
 }
 
 .section-recherche h3{
@@ -385,12 +391,12 @@ margin-top: 45px;
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    gap:20%;
-    align-items: flex-start;
+    gap:18%;
+
     
     }
 .section-footer{
-    width: 200px;
+    width: 180px;
     
     
 }
@@ -414,12 +420,19 @@ ul {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    .header {
+        width: 100%;
+    }
+    .filtres {
+        width: 100%;
+    }
     .hebergements-and-populaires {
         flex-direction: column;
     }
-
-    .hebergements {
+ 
+     .hebergements {
         width: 100%;
+     
     }
 
     .populaires {
@@ -431,22 +444,37 @@ ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        background-color: orange;
     }
 
     .populaires-cards a {
         width: 30%;
+        background-color:palevioletred;
     }
 
     .populaires-cards .card-title {
         font-size: 14px;
+        background-color: rgb(0, 255, 81);
     }
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+    .activites-cards { 
+        width: 23%;
+    }
+    .activites-titel {
+        width: 80%;
+    }
 }
-
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+    .activites{
+        width: 100%;
+        background-color: brown;
+    }
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
 }
