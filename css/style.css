@@ -1,5 +1,5 @@
 /******************************* General ******************************/
-* {
+_* {
     outline:1px solid red}
 * {
     font-family: 'Raleway', sans-serif;
@@ -75,17 +75,24 @@ a {
 /****************** Logo *******************/
 .header {
     flex-wrap: wrap;
-    background-color: aqua;
     margin: 0px;
 }
 h1{
     font-weight: bold;
     font-size: 25px;
 }
+.header-p{
+    font-size: 18px;
+    margin-top: -10px;
+    margin-left: 0px;
+
+}
 /************** Logo *******************/
 .header {
     margin-top: 20px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 .logo {
@@ -105,12 +112,7 @@ p {
 h2{
     font-weight: bold;
    }
-.header-p{
-    font-size: 18px;
-    margin-top: -10px;
-    margin-left: 0px;
 
-}
 .links a {
     color: black; /* Couleur du texte par défaut */
     text-decoration: none; /* Supprimer le soulignement par défaut */
@@ -136,7 +138,6 @@ h3{
 .search-bar {
     margin-top: 40px;
     display: flex;
-    ;
 }
 /*********** Style de l'icône ***************/
 .icone {    
@@ -159,7 +160,6 @@ h3{
     border: 1px solid #F2F2F2;
     outline:none;
     font-size: 15px;   
-    background-color: cadetblue;
 }
   
 /************ bouton 'Rechercher' ***********/
@@ -173,12 +173,11 @@ h3{
     border-bottom-right-radius: 10px;
     cursor: pointer;
     font-size: 20px;
-    background-color: blueviolet;
 }
 
 /********************************* Filtre ***************************/
 .conteneur-filtres {
-    margin-top: 35px;
+    margin-top: 30px;
     margin-bottom: 20px;
     align-items: flex-start; 
     display:flex;
@@ -188,7 +187,8 @@ h3{
 .filtres {
     align-items: center;
     font-size: 13px;
-    margin-top: 15px;    
+    margin-top: 15px; 
+    margin-right: 1%;
 }
 
 .section-recherche h3{
@@ -223,6 +223,7 @@ h3{
 .info  {
     display: flex;
     align-items: flex-start;
+    margin-bottom:2%;
 }
 
 .button-info {
@@ -245,20 +246,20 @@ h3{
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
-    padding: 35px;
+    padding: 2%;
+    margin: 1% 0px 1% 0cqmax;
     box-sizing:border-box;
 }
 
 /**************************** Hebergements ***********************************/
 .hebergements {
-    width: 63%; 
+    width: 65%; 
 }
 .hebergements-cards {
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between; 
     gap: 1%;
-
 }
 .hebergements-cards .card {
     display:flex;/*texte sous la photo*/
@@ -295,7 +296,7 @@ p{
     margin-top: -10px;
 }
 .hebergement-afficher-plus {
-margin-top: 45px;
+    margin-top: 35px;
     font-size: 20px;
     margin-left: 0px;
 }
@@ -353,41 +354,38 @@ margin-top: 45px;
     flex-wrap: wrap;
     gap:1%;
     justify-content:center;
+    margin-top: 2%;
 }
 
 .activites-cards {
-    width: 23%;
+    width: 100%;
+    width: 330px;
     padding: 0;    
 }
 .activites .card{
-    padding: 0;
- 
+    padding: 0%  0% 3%;
+    margin-bottom: 30px;
 }
-
 .acttivites-h2{
     margin-left: 30px;
+    margin-top: 3%;
 }
 
 .activites-cards img {/*ok*/
     width: 100%;
-    height: 360px;
+    height: 439px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
    
 }
 .activites-titel {
-    font-size: 16px;
-    line-height: 60px;
-    margin-left: 15px;
-    width: 220px;
-    margin-top: 0px;
-    margin-bottom: 20px;
+   margin: 5%;
 }
 /************************************** Footer ****************************************/
 .footer {
     background-color: var(--main-bg-color);
-    padding: 10px;
-    padding: 35px;
+    margin-top:30px;
+    padding: 0px 35px;
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
@@ -396,7 +394,7 @@ margin-top: 45px;
     
     }
 .section-footer{
-    width: 180px;
+    width: 225px;
     
     
 }
