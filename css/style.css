@@ -254,6 +254,7 @@ h3{
 /**************************** Hebergements ***********************************/
 .hebergements {
     width: 65%; 
+    background-color:blueviolet;
 }
 .hebergements-cards {
     display:flex;
@@ -295,7 +296,7 @@ p{
     margin-left: 10px;
     margin-top: -10px;
 }
-.hebergement-afficher-plus {
+.hebergements-afficher-plus {
     margin-top: 35px;
     font-size: 20px;
     margin-left: 0px;
@@ -425,14 +426,13 @@ ul {
         width: 100%;
     }
     .hebergements-and-populaires {
-        flex-direction: column;
+        flex-direction: column;background-color:blueviolet;
     }
  
-     .hebergements {
+    .hebergements {
         width: 100%;
-     
+        background-color:blueviolet;
     }
-
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -442,12 +442,11 @@ ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: orange;
+        
     }
 
     .populaires-cards a {
-        width: 30%;
-        background-color:palevioletred;
+        width: 32%;background-color: orange;
     }
 
     .populaires-cards .card-title {
