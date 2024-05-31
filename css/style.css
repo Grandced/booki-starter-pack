@@ -119,13 +119,10 @@ h2{
 .links .first-link {
     margin-right: 50px;
     font-size: medium;
-    background-color: aquamarine;
-
 }
-.links .seconde-link {
+.links .second-link {
     margin-right: 10px;
      font-size: medium;
-    background-color: aquamarine;
 }
 h3{
     font-weight: normal;}
@@ -176,13 +173,16 @@ h3{
     margin-bottom: 20px;
     display:flex;
     flex-wrap: wrap;
-    align-items:stretch;
-    justify-content:flex-start;
-    background-color:transparent;
+    _align-items:stretch;
 }
 
-.h2-filtres{
-    margin-top: 5px;
+.filtres{
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 15px;
+    
 }
 
 .section-recherche h3{
@@ -207,7 +207,7 @@ h3{
     background-color:transparent;
     color: black;
     border: none;
-    font-size: 15px; 
+    font-size: 18px; 
 }
 
 .button-filtre:hover {
