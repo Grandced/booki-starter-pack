@@ -246,37 +246,41 @@ h3{
 
 /**************************** Hebergements ***********************************/
 .hebergements {
-    width: 65%; 
-}
+    width: 63%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}  
+
 .hebergements-cards {
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between; 
-    gap: 1%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:1%;
 }
 .hebergements-cards .card {
     display:flex;/*texte sous la photo*/
     flex-direction: column;
-    margin-top: 20px;
-    width: 255px; 
-    height: 240px; 
+    margin-top: 3%;
   }
 .hebergements-cards img {
-    width: 100%;/*remplissage de la card*/
-    height: 150px;
+    max-width: 240px;
+    min-width: 240px;
+    width: 120%;
+    height: 166px;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 20px;   
 }
 .hebergements-cards .card-content {
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 .hebergements-cards .card-title {
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom:0px;  
+    margin-left: 3%;
+    margin-top: 4%;
+    margin-bottom:0%;  
 }
 p{
     margin-left: 10px;
@@ -340,10 +344,9 @@ p{
     flex-wrap: wrap;
     gap:2%;
     justify-content:center;
-    margin-top: 2%;
+    margin-top: 1%;
 }
 .activites-cards {
-    width: 100%;
     width: 22%;
     padding: 0;
 }
@@ -352,7 +355,7 @@ p{
     margin-bottom: 30px;
 }
 .acttivites-h2{
-    margin-left: 30px;
+    margin-left: 3%;
     margin-top: 3%;
 }
 .activites-cards img {/*ok*/
@@ -379,7 +382,7 @@ p{
     
 }
 .section-footer{
-    width: 225px;
+    width: 20%;
 }
 h3{
     font-weight: bold;
