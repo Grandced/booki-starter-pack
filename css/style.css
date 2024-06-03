@@ -255,14 +255,12 @@ h3{
 .hebergements-cards {
     width: 100%;
     display: flex;
-    justify-content: ce;
+    justify-content:space-between;
     flex-wrap: wrap;
-    gap: 1%;
-   
+    gap: 1%; 
 }
 .hebergements-cards a {
     width: 32%;
- 
 }
 .hebergements-cards .card {
     display:flex;/*texte sous la photo*/
